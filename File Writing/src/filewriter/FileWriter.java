@@ -20,7 +20,7 @@ public class FileWriter {
 		}
 		
 		System.out.println("Please input words: ");
-		String word = input.next();
+		String word = input.nextLine();
 		
 		while(word != "end")
 		{
@@ -34,7 +34,7 @@ public class FileWriter {
 				e.printStackTrace();
 			}
 			
-			word = input.next();
+			word = input.nextLine();
 		}
 		
 		try 
