@@ -22,7 +22,7 @@ public class FileWriter {
 		System.out.println("Please input words: ");
 		String word = input.nextLine();
 		
-		while(word != "end")
+		while(!word.equals("end"))
 		{
 			try 
 			{
