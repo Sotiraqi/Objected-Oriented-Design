@@ -104,7 +104,7 @@ public class Menu
 	private void ui_delete_student()
 	{
 		System.out.println("Please enter the surname of the student whom you like to delete!");
-		String name_to_delete = input.nextLine();
+		String name_to_delete = input.next();
 		int index_count = 0;
 		
 		for(Student current_student: students_list)
@@ -131,7 +131,7 @@ public class Menu
 	private void ui_modify_student()
 	{
 		System.out.println("Enter the surname of the student whom you like to modify: ");
-		String name_to_find = input.nextLine();
+		String name_to_find = input.next();
 		int index_count = 0;
 		
 		for(Student current_student: students_list)
