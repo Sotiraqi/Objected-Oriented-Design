@@ -160,7 +160,7 @@ public class Menu
 	private void ui_show_students()
 	{
 		System.out.println("Surname \tName \tYear \tAverage");
-		//Collections.sort(students_list, Student.stud_compare);
+		Collections.sort(students_list, Student.stud_compare);
 		
 		for(Student current_student: students_list)
 		{
