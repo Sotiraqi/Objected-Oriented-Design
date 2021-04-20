@@ -1,0 +1,1 @@
+Applicatia cu plugin-uri
